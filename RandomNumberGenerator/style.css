@@ -1,0 +1,19 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+}
+#rollBtn {
+  font-size: 3em;
+  padding: 5px 25px;
+  border-radius: 5px;
+  color: white;
+  background-color: hsl(180, 66%, 50%);
+  cursor: pointer;
+  transition: background-color 0.25s;
+}
+#rollBtn:hover {
+  background-color: hsl(180, 66%, 29%);
+}
+.myLabels {
+  font-size: 3em;
+}
