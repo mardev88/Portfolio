@@ -7,11 +7,12 @@ const max = 6;
 let randomNumber1;
 let randomNumber2;
 let randomNumber3;
-rollBtn.onclick = function () {
+rollBtn.addEventListener("click", roll);
+function roll() {
   randomNumber1 = Math.floor(Math.random() * max) + min;
   randomNumber2 = Math.floor(Math.random() * max) + min;
   randomNumber3 = Math.floor(Math.random() * max) + min;
   label1.innerText = randomNumber1;
   label2.innerText = randomNumber2;
   label3.innerText = randomNumber3;
-};
+}
