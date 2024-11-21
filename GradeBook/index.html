@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Gradebook</title>
+  </head>
+  <body>
+    <div id="student-list-container">
+      <h1>GRADEBOOK</h1>
+      <div>
+        <label for="student-name-input"></label>
+        <input
+          type="text"
+          id="student-name-input"
+          placeholder="Add new student"
+        />
+        <button id="add-student-btn" class="btn">Add Student</button>
+      </div>
+
+      <table id="students-table">
+        <thead>
+          <th>Name</th>
+          <th>Average</th>
+          <th>Show Grades</th>
+          <th>Delete Student</th>
+        </thead>
+        <tbody></tbody>
+      </table>
+
+      <div id="student-grades-container" class="hide">
+        <button id="hide-grades" class="btn">Hide grades</button>
+        <h1>Student name</h1>
+        <div>
+          <label for="grade-input">Grade</label>
+          <input type="number" id="grade-input" placeholder="Add grade" />
+          <button id="add-grade-btn" class="btn">Add grade</button>
+          <table id="grades-table">
+            <thead>
+              <th>Grade</th>
+              <th>Delete grade</th>
+            </thead>
+            <tbody></tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>

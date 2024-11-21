@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: blanchedalmond;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#student-list-container {
+  box-shadow: 0 0 10px;
+  text-align: center;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 10px;
+}
+#student-grades-container {
+  box-shadow: 0 0 10px;
+  border-radius: 10px;
+  margin-top: 20px;
+  padding: 20px;
+  margin: 0 50px;
+}
+.hide {
+  display: none;
+}
+h1 {
+  font-family: Roboto Serif;
+  margin: 30px 0px;
+}
+input {
+  padding: 2px;
+  width: 150px;
+  height: 20px;
+  border-bottom: 0;
+  border-right: 0;
+  border-radius: 5px;
+}
+.btn {
+  background-color: lightgrey;
+  padding: 2px;
+  height: 26px;
+  border-top: 0;
+  border-left: 0;
+  border-radius: 5px;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+
+table,
+th,
+td {
+  border: 1px solid #ddd;
+}
+
+th,
+td {
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background-color: #131842;
+  color: #fbf6e2;
+}
